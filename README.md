@@ -6,6 +6,8 @@ A Python library for Processing-style creative coding in the terminal. Create AS
 
 ## 🎬 Demo
 
+A moving rectangle with colored fill and stroke.
+
 <img src="/docs/public/img/hello_world.gif" alt="cover" width="100%">
 
 ## 📚 Documentation
