@@ -1,35 +1,91 @@
 # Overview
 
-## ASCII Art Animation
+## Basic Examples
 
-|  [Cherry Blossom Globe](./globe.md)  |
-|  :--:  |
-| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_globe.gif" height="210px" alt="bar chart" />|
+<ExamplePreview :examples="[
+  {
+    path: './zeros',
+    title: 'Zeros',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_zeros.png'
+  },
+  {
+    path: './information',
+    title: 'Information',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_information.png'
+  },
+  {
+    path: './mandelbrot-set',
+    title: 'Mandelbrot Set',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_mandelbrot.png'
+  }
+]" />
 
-## Character-Style Generative Art
+## Visualizations
 
-|  [Beating Heart](./heart.md)  |
-|  :--:  |
-| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_heart.gif" height="210px" alt="bar chart" />|
+<ExamplePreview :examples="[
+  {
+    path: './bar',
+    title: 'Covid-19 Bar Chart',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_barchart.png'
+  },
+  {
+    path: './pie',
+    title: 'Hand Pie Chart',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_piechart.png'
+  },
+  {
+    path: './globe',
+    title: 'Cherry Blossom Globe',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_globe.gif'
+  },
+  {
+    path: './heart',
+    title: 'Beating Heart',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_heart.gif'
+  }
+]" />
 
-## Terminal Game Application
+## Algorithms
 
-|  [Eating Poetry](./snake.md)  |
-|  :--:  |
-| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_snake.gif" height="210px" alt="bar chart" />|
+<ExamplePreview :examples="[
+  {
+    path: './bfs',
+    title: 'BFS',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_bfs_preview.gif'
+  },
+  {
+    path: './dfs',
+    title: 'DFS',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_dfs_preview.gif'
+  },
+  {
+    path: './prim',
+    title: 'Prim',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_prim_preview.gif'
+  },
+  {
+    path: './bubble',
+    title: 'Bubble Sort',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_bubble_preview.gif'
+  },
+  {
+    path: './insertion',
+    title: 'Insertion Sort',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_insertion_preview.gif'
+  },
+  {
+    path: './merge',
+    title: 'Merge Sort',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_merge_preview.gif'
+  }
+]" />
 
-## Expressive Data Visualization
+## Games
 
-|  [Covid-19 Bar Chart](./bar.md)  | [Hand Pie Chart](./pie.md) |
-|  :--:  |  :--:  |
-| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_barchart.png" height="210px" alt="bar chart" />|<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_piechart.png" height="210px" alt="pie chart" />|
-
-## Algorithm Visualization
-
-| [BFS](./bfs.md) | [DFS](./dfs.md) | [Prim](./prim.md) |
-|  :--:  |  :--:  |  :--:  |
-| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_bfs_preview.gif" height="210px" alt="bfs" />| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_dfs_preview.gif" height="210px" alt="dfs" />| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_prim_preview.gif" height="210px" alt="prim" />|
-
-| [Bubble Sort](./bubble.md) | [Insertion Sort](./insertion.md) | [Merge Sort](./merge.md) |
-|  :--:  |  :--:  |  :--:  |
-| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_bubble_preview.gif"  height="250px" alt="bubble" />| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_insertion_preview.gif" height="250px"  alt="insertion" />| <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/example_merge_preview.gif" height="250px" alt="merge" />|
+<ExamplePreview :examples="[
+  {
+    path: './snake',
+    title: 'Eating Poetry',
+    thumbnail: 'https://raw.githubusercontent.com/gh2hq/public-files/master/example_snake.gif'
+  }
+]" />
