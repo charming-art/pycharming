@@ -15,7 +15,7 @@ export default defineConfig({
     logo: "/icon.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      {text: "Docs", link: "/docs/what-is-gh2"},
+      {text: "Docs", link: "/docs/what-is-pycharming"},
       {text: "Examples", link: "/examples/zeros"},
       {text: "Editor", link: "https://editor.gh2.dev/"},
     ],
@@ -27,12 +27,12 @@ export default defineConfig({
             {text: "What is PyCharming?", link: "/docs/what-is-pycharming"},
             {text: "Why PyCharming?", link: "/docs/why-pycharming"},
             {text: "Migration", link: "/docs/migration"},
+            {text: "API Index", link: "/docs/api/readme"},
           ],
         },
         {
           text: "Features",
           items: [
-            {text: "Overview", link: "/docs/tutorials/readme"},
             {text: "Structure", link: "/docs/tutorials/structure"},
             {text: "Color", link: "/docs/tutorials/color"},
             {text: "Event", link: "/docs/tutorials/event"},
@@ -45,7 +45,6 @@ export default defineConfig({
         {
           text: "API Reference",
           items: [
-            {text: "Index", link: "/docs/api/readme"},
             {text: "Color", link: "/docs/api/color"},
             {text: "Constants", link: "/docs/api/constants"},
             {text: "Environment", link: "/docs/api/environment"},
