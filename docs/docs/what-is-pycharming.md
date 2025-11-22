@@ -4,10 +4,10 @@ PyCharming is a creative coding language designed for **Character Terminal Art P
 
 It is currently written in Python and provides Processing-like APIs, which aims to help artists, designers, educators, beginners, and anyone else to easily create following visual effects in terminal.
 
-- [ASCII Art Animation](./docs/examples/overview.md#ASCII-Art-Animation)
-- [Character-Style Generative Art](./docs/examples/overview.md#Character-Style-Generative-Art)
-- [Terminal Game Application](./docs/examples/overview.md#Terminal-Game-Application)
-- [Expressive Data Visualization](./docs/examples/overview.md#Expressive-Data-Visualization)
+- [ASCII Art Animation](/examples/overview#ASCII-Art-Animation)
+- [Character-Style Generative Art](/examples/overview#Character-Style-Generative-Art)
+- [Terminal Game Application](/examples/overview#Terminal-Game-Application)
+- [Expressive Data Visualization](/examples/overview#Expressive-Data-Visualization)
 
 There are many reasons for creating PyCharming, but the most important one is that **I hope not only does PyCharming make you love programming for fun or show a magic world to you, but also make this journey relaxing and interesting.**
 
@@ -15,11 +15,10 @@ There are many reasons for creating PyCharming, but the most important one is th
 
 ## 📎 Links
 
-- [Introduction](./docs/introduction.md)
-- [Tutorials](./docs/tutorials/readme.md)
-- [API Reference](./docs/api/readme.md)
-- [Examples](./docs/examples/overview.md)
-- [Processing&P5.js to PyCharming](./docs/processing&p5js-to-charming.md)
+- [Get Started](/docs/get-started)
+- [Features](/docs/features/readme)
+- [API Reference](/docs/api/readme)
+- [Examples](/examples/overview)
 
 ## ✨ Features
 
@@ -37,4 +36,4 @@ There are many reasons for creating PyCharming, but the most important one is th
 
 ## 💳 License
 
-PyCharming is [LGPL-2.1 License](./LICENSE).
+PyCharming is [LGPL-2.1 License](https://github.com/charming-art/pycharming/blob/main/LICENSE).
