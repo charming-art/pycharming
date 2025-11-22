@@ -27,7 +27,6 @@ export default defineConfig({
             {text: "What is PyCharming?", link: "/docs/what-is-pycharming"},
             {text: "Why PyCharming?", link: "/docs/why-pycharming"},
             {text: "Get Started", link: "/docs/get-started"},
-            {text: "Migration", link: "/docs/migration"},
             {text: "API Index", link: "/docs/api/readme"},
           ],
         },
