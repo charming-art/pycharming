@@ -1,33 +1,18 @@
-# PyCharming: Character Terminal Art Programming
+# PyCharming: A Python Library for ASCII Art
 
-PyCharming is a creative coding language designed for **Character Terminal Art Programming**.
+Processing-style creative coding for the terminal. Create ASCII art animations, generative art, terminal games, and expressive data visualizations.
 
-It is currently written in Python and provides Processing-like APIs, which aims to help artists, designers, educators, beginners, and anyone else to easily create following visual effects in terminal.
+**🌐 [Documentation](https://pycharming.vercel.app)** | **📦 [Installation](#-installation)** | **🚀 [Get Started](#-get-started)**
 
-- [ASCII Art Animation](./docs/examples/readme.md#ASCII-Art-Animation)
-- [Character-Style Generative Art](./docs/examples/readme.md#Character-Style-Generative-Art)
-- [Terminal Game Application](./docs/examples/readme.md#Terminal-Game-Application)
-- [Expressive Data Visualization](./docs/examples/readme.md#Expressive-Data-Visualization)
-
-There are many reasons for creating PyCharming, but the most important one is that **I hope not only does PyCharming make you love programming for fun or show a magic world to you, but also make this journey relaxing and interesting.**
-
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/cover.png" alt="cover" width="100%">
-
-## 📎 Links
-
-- [Introduction](./docs/introduction.md)
-- [Features](./docs/features/readme.md)
-- [API Reference](./docs/api/readme.md)
-- [Examples](./docs/examples/readme.md)
-- [Processing&P5.js to PyCharming](./docs/processing&p5js-to-charming.md)
+<img src="/img/cover.png" alt="cover" width="100%">
 
 ## ✨ Features
 
-- **Highly Expressive**: Unlike traditional drawing system or tool using three numerical channels (`(r, g, b)` or `(h, s, v)`) to describe a color, PyCharming allows you to describe a color like `(character, foreground color, background color)`, which means you can express more with the extra the `character` channel.
-- **Powerful and Flexible**: PyCharming is not as same as [urwid](https://github.com/urwid/urwid) or [click](https://github.com/pallets/click) to build console line interface. Actually it more like [asciimatics](https://github.com/peterbrittain/asciimatics), [art](https://github.com/sepandhaghighi/art) or [tcharts](https://github.com/ProtoTeam/tcharts.js) to draw some visual effects in the terminal but with more flexibility. Instead of drawing limited and predefined shapes or effects, you can draw some basic primitives, custom shapes, curves, images, typography with transforms (translate, rotate, shear) and even events (mouse, keyboard) in PyCharming.
-- **Easy to Learn and Use**: PyCharming is very beginner-friendly, because of Python's simple syntax and [Processing](https://processing.org/)'s concise APIs. It will be more easier if you are already familiar with them. Once you've master PyCharming, you can create anything interesting in you head with it and enjoy the pure joy of coding.
+- **🎨 Highly Expressive**: Colors in PyCharming include a character channel alongside foreground and background colors, giving you more ways to express your ideas.
+- **🚀 Powerful and Flexible**: Draw shapes, curves, images, and typography with transforms and events. More flexible than most terminal art tools.
+- **📚 Easy to Learn**: Beginner-friendly with Python's simple syntax and Processing-style APIs. Start creating terminal art in minutes.
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/hello_world.gif" alt="Charming" width="100%">
+<img src="/img/hello_world.gif" alt="Charming" width="100%">
 
 ## 📦 Installation
 
@@ -38,7 +23,7 @@ There are many reasons for creating PyCharming, but the most important one is th
 $ pip3 install charming --user
 ```
 
-## 📺 A Simple Example
+## 🚀 Get Started
 
 ```python
 '''rect.py'''
@@ -56,7 +41,15 @@ cm.run()
 $ python3 rect.py
 ```
 
-![get started](https://raw.githubusercontent.com/gh2hq/public-files/master/get_started.png)
+![get started](/img/get_started.png)
+
+## 📎 Links
+
+- [Documentation](https://pycharming.vercel.app)
+- [Get Started](https://pycharming.vercel.app/docs/get-started)
+- [Features](https://pycharming.vercel.app/docs/features/readme)
+- [API Reference](https://pycharming.vercel.app/docs/api/readme)
+- [Examples](https://pycharming.vercel.app/examples/overview)
 
 ## 🛸 Future work
 
@@ -66,4 +59,4 @@ $ python3 rect.py
 
 ## 💳 License
 
-PyCharming is [LGPL-2.1 License](./LICENSE).
+PyCharming is [LGPL-2.1 License](https://github.com/charming-art/pycharming/blob/main/LICENSE).
