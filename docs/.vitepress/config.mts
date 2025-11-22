@@ -45,7 +45,7 @@ export default defineConfig({
         },
         {
           text: "API Reference",
-          collapsed: true,
+          collapsed: false,
           items: [
             {text: "Color", link: "/docs/api/color"},
             {text: "Constants", link: "/docs/api/constants"},
