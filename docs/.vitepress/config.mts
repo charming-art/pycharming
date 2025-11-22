@@ -23,6 +23,7 @@ export default defineConfig({
       "/docs": [
         {
           text: "Introduction",
+          collapsed: false,
           items: [
             {text: "What is PyCharming?", link: "/docs/what-is-pycharming"},
             {text: "Why PyCharming?", link: "/docs/why-pycharming"},
@@ -32,6 +33,7 @@ export default defineConfig({
         },
         {
           text: "Features",
+          collapsed: false,
           items: [
             {text: "Structure", link: "/docs/tutorials/structure"},
             {text: "Color", link: "/docs/tutorials/color"},
@@ -44,6 +46,7 @@ export default defineConfig({
         },
         {
           text: "API Reference",
+          collapsed: true,
           items: [
             {text: "Color", link: "/docs/api/color"},
             {text: "Constants", link: "/docs/api/constants"},
@@ -51,6 +54,7 @@ export default defineConfig({
             {
               text: "Events",
               link: "/docs/api/events",
+              collapsed: true,
               items: [
                 {text: "Keyboard", link: "/docs/api/events-keyboard"},
                 {text: "Mouse", link: "/docs/api/events-mouse"},
@@ -61,6 +65,7 @@ export default defineConfig({
             {
               text: "Image",
               link: "/docs/api/image",
+              collapsed: true,
               items: [
                 {text: "CImage", link: "/docs/api/image-cimage"},
                 {text: "Display", link: "/docs/api/image-display"},
@@ -70,6 +75,7 @@ export default defineConfig({
             {
               text: "Math",
               link: "/docs/api/math",
+              collapsed: true,
               items: [
                 {text: "CVector", link: "/docs/api/math-cvector"},
                 {text: "Calculation", link: "/docs/api/math-calculation"},
@@ -80,6 +86,7 @@ export default defineConfig({
             {
               text: "Shape",
               link: "/docs/api/shape",
+              collapsed: true,
               items: [
                 {text: "2D Primitives", link: "/docs/api/shape-primitives"},
                 {text: "Attributes", link: "/docs/api/shape-attributes"},
@@ -98,14 +105,16 @@ export default defineConfig({
         {text: "Overview", link: "/examples/overview"},
         {
           text: "Basic Examples",
+          collapsed: false,
           items: [
-            {text: "Zeros", link: "/examples/zeros"},
-            {text: "Information", link: "/examples/information"},
-            {text: "Mandelbrot Set", link: "/examples/mandelbrot-set"},
+        {text: "Zeros", link: "/examples/zeros"},
+        {text: "Information", link: "/examples/information"},
+        {text: "Mandelbrot Set", link: "/examples/mandelbrot-set"},
           ],
         },
         {
           text: "Visualizations",
+          collapsed: false,
           items: [
             {text: "Bar Chart", link: "/examples/bar"},
             {text: "Pie Chart", link: "/examples/pie"},
@@ -115,6 +124,7 @@ export default defineConfig({
         },
         {
           text: "Algorithms",
+          collapsed: false,
           items: [
             {text: "BFS", link: "/examples/bfs"},
             {text: "DFS", link: "/examples/dfs"},
@@ -126,6 +136,7 @@ export default defineConfig({
         },
         {
           text: "Games",
+          collapsed: false,
           items: [
             {text: "Snake", link: "/examples/snake"},
           ],
