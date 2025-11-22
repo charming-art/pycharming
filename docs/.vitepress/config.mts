@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {text: "Docs", link: "/docs/what-is-pycharming"},
-      {text: "Examples", link: "/examples/readme"},
+      {text: "Examples", link: "/examples/overview"},
       {text: "Editor", link: "https://editor.gh2.dev/"},
     ],
     sidebar: {
@@ -62,7 +62,7 @@ export default defineConfig({
         },
       ],
       "/examples": [
-        {text: "Gallery", link: "/examples/readme"},
+        {text: "Overview", link: "/examples/overview"},
         {
           text: "Basic Examples",
           items: [

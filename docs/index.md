@@ -18,7 +18,7 @@ hero:
       link: /docs/what-is-pycharming
     - theme: alt
       text: Examples
-      link: /examples/readme
+      link: /examples/overview
 
 features:
   - title: 🎨 Highly Expressive

@@ -4,10 +4,10 @@ PyCharming is a creative coding language designed for **Character Terminal Art P
 
 It is currently written in Python and provides Processing-like APIs, which aims to help artists, designers, educators, beginners, and anyone else to easily create following visual effects in terminal.
 
-- [ASCII Art Animation](./docs/examples/readme.md#ASCII-Art-Animation)
-- [Character-Style Generative Art](./docs/examples/readme.md#Character-Style-Generative-Art)
-- [Terminal Game Application](./docs/examples/readme.md#Terminal-Game-Application)
-- [Expressive Data Visualization](./docs/examples/readme.md#Expressive-Data-Visualization)
+- [ASCII Art Animation](./docs/examples/overview.md#ASCII-Art-Animation)
+- [Character-Style Generative Art](./docs/examples/overview.md#Character-Style-Generative-Art)
+- [Terminal Game Application](./docs/examples/overview.md#Terminal-Game-Application)
+- [Expressive Data Visualization](./docs/examples/overview.md#Expressive-Data-Visualization)
 
 There are many reasons for creating PyCharming, but the most important one is that **I hope not only does PyCharming make you love programming for fun or show a magic world to you, but also make this journey relaxing and interesting.**
 
@@ -18,7 +18,7 @@ There are many reasons for creating PyCharming, but the most important one is th
 - [Introduction](./docs/introduction.md)
 - [Tutorials](./docs/tutorials/readme.md)
 - [API Reference](./docs/api/readme.md)
-- [Examples](./docs/examples/readme.md)
+- [Examples](./docs/examples/overview.md)
 - [Processing&P5.js to PyCharming](./docs/processing&p5js-to-charming.md)
 
 ## ✨ Features
