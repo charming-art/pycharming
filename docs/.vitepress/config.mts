@@ -17,7 +17,6 @@ export default defineConfig({
     nav: [
       {text: "Docs", link: "/docs/what-is-pycharming"},
       {text: "Examples", link: "/examples/overview"},
-      {text: "Editor", link: "https://editor.gh2.dev/"},
     ],
     sidebar: {
       "/docs": [
