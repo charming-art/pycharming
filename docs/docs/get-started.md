@@ -1,45 +1,99 @@
 # Get Started
 
-## Try gh2 online 🛝
+- **Supported OS**: PyCharming currently only supports **MacOS**, though it should also work for any other platform that provides a working [curses](https://docs.python.org/3/howto/curses.html) implementation. It soon will support **Windows** and run in **Modern Browsers**.
+- **Python**: 3.6/3.7/3.8
 
-You can try VitePress directly in your browser on gh's [Online Eidtor](https://editor.gh2.dev/).
-
-## Install from PyPI 🛠️
-
-```sh
-$ pip install gh2
+```bash
+$ pip3 install charming --user
 ```
 
-## Usage 🎯
+## A Simple Example
 
-:::python
+```python
+'''rect.py'''
+import charming as cm
+
+# draw a rect
+cm.full_screen()
+cm.rect(0, 0, 10, 10)
+
+# run the sketch
+cm.run()
+```
+
+```bash
+$ python3 rect.py
+```
+
+![get started](/img/get_started.png)
+
+## Coming from Processing?
+
+If you have experience with Processing or p5.js, you'll find PyCharming familiar! PyCharming implements most of Processing's APIs related to 2D. Here are the key differences to help you get started:
+
+### API Names
+
+All the APIs in Processing use camelCase like `aaaBbb`, but in PyCharming they use snake_case like `aaa_bbb`. For example:
+
+- `ellipseMode` → `ellipse_mode`
+- `beginShape` → `begin_shape`
+- `rectMode` → `rect_mode`
 
 ```py
-import gh2 as gh
+import charming as cm
 
-poem = gh.poem()
-
-# Sets margins for output (optional).
-poem.margin(top=1, bottom=1)
-
-# The message we want to display.
-message = "Hello, gh2!"
-
-# Iterates through message.
-for i, letter in enumerate(message):
-    # Plots gylph on coordinate plane at (x, y).
-    poem.point(i, i, letter)
-
-# Prints to console.
-poem.print()
+cm.full_screen()
+cm.no_cursor()
+cm.rect_mode(cm.CORNER)
+cm.rect(0, 0, 10, 10)
+cm.run()
 ```
 
-:::
+### Register Hooks
 
-Or, conversely if you want to store as string and then print:
+In Processing, `setup` and `draw` functions run automatically. In PyCharming, you need to use **decorators** to register hooks:
 
 ```py
-# Stores as string.
-string = poem.content()
-print(string)
+import charming as app
+
+@app.setup
+def setup():
+    app.full_screen()
+    app.rect_mode(app.CENTER)
+
+x = 0
+
+@app.draw
+def draw():
+    global x
+    app.rect(x, 0, 10, 15)
+    x += 1
+
+app.run()
 ```
+
+### Color System
+
+PyCharming uses a unique color system with three channels:
+
+- `ch`: character (ASCII, Unicode, emoji)
+- `fg`: foreground color
+- `bg`: background color
+
+```py
+# ANSI mode
+app.fill('*', app.RED, app.BLUE)
+app.stroke('@', 100, 200)
+
+# RGB mode
+app.color_mode(app.RGB)
+app.background('🚀', (255, 0, 0), (100,))
+```
+
+### Global Variables
+
+In Processing, you can use global variables directly like `width`, `height`, `mouseX`. In PyCharming, call methods instead:
+
+- `width` → `get_width()`
+- `height` → `get_height()`
+- `mouseX` → `get_mouse_x()`

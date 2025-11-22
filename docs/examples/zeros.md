@@ -1,20 +1,17 @@
 # Zeros
 
-:::python fit
+![preview](/img/example_zeros.png)
 
 ```py
-import gh2 as gh
+import charming as cm
 
-poem = gh.poem()
-
-poem.margin(top=1, bottom=1)
+cm.full_screen()
+cm.no_cursor()
 
 for j in range(10):
     for i in range(20):
         if (i + j) % 2 == 1:
-            poem.point(i, j, "0")
+            cm.text("0", i, j)
 
-poem.print()
+cm.run()
 ```
-
-:::

@@ -1,7 +1,5 @@
 include LICENSE
+graft docs
 graft examples
 graft tests
 global-exclude *.pyc
-prune docs/node_modules
-prune docs/src/.vitepress/cache
-prune docs/src/.vitepress/dist
