@@ -1,10 +1,10 @@
-# Insertion Sort
+# Bubble Sort
 
-This is visualization for insertion sort which shows the progress of sorting traditional Chinese mahjong. You can see that there is always a sorted prefix. [[source](../../examples/insertion.py)]
+This is visualization for bubble sort which shows the progress of sorting traditional Chinese mahjong. You can see that there is always a sorted suffix. [[source](https://github.com/gh2hq/gh2/blob/main/examples/bubble.py)]
 
-![insertion](https://raw.githubusercontent.com/gh2hq/public-files/master/example_insertion.gif)
+![bubble](https://raw.githubusercontent.com/gh2hq/public-files/master/example_bubble.gif)
 
-![insertion](https://raw.githubusercontent.com/gh2hq/public-files/master/example_insertion.png)
+![bubble](https://raw.githubusercontent.com/gh2hq/public-files/master/example_bubble.png)
 
 ```py
 from random import shuffle
@@ -27,15 +27,20 @@ def generate_data():
     return data
 
 
-def insertion_sort(data):
+def swap(list, i, j):
+    t = list[i]
+    list[i] = list[j]
+    list[j] = t
+
+
+def bubble_sort(data):
     sorted = [[d for d in data]]
-    for i in range(1, len(data)):
-        j = i - 1
-        current = data[i]
-        while j >= 0 and current < data[j]:
-            data[j + 1] = data[j]
-            j -= 1
-        data[j + 1] = current
+    for j in range(len(data)):
+        for i in range(1, len(data) - j):
+            d0 = data[i - 1]
+            d1 = data[i]
+            if d0 > d1:
+                swap(data, i - 1, i)
         sorted.append([d for d in data])
     return sorted
 
@@ -47,7 +52,7 @@ def setup():
 
     global sorted
     data = generate_data()
-    sorted = insertion_sort(data)
+    sorted = bubble_sort(data)
 
 
 @cm.draw

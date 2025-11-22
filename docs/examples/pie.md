@@ -1,6 +1,6 @@
 # Hand Pie Chart
 
-There is a pie chart for mock data about the proportion of the population of different races. [[source](../../examples/pie.py)]
+There is a pie chart for mock data about the proportion of the population of different races. [[source](https://github.com/gh2hq/gh2/blob/main/examples/pie.py)]
 
 ![preview.md](https://raw.githubusercontent.com/gh2hq/public-files/master/example_piechart.png)
 

@@ -1,10 +1,10 @@
-# DFS
+# Prim
 
-This is the art visualization for DFS algorithm, inspired by [Mike Bostock](https://bl.ocks.org/mbostock/11337835). [[source](../../examples/bfs.py)]
+This is the art visualization for Prim algorithm, inspired by [Mike Bostock](https://bl.ocks.org/mbostock/11337835). [[source](https://github.com/gh2hq/gh2/blob/main/examples/prim.py)]
 
-![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_dfs.gif)
+![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_prim.gif)
 
-![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_dfs.png)
+![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_prim.png)
 
 ```py
 import charming as cm
@@ -29,29 +29,41 @@ def generate_graph(width, height):
             -1 if x == 0 else i - 1
         ]
         shuffle(around)
-        vertex = (i, list(filter(lambda x: x >= 0 and x < size, around)))
+        edges = filter(lambda x: x >= 0 and x < size, around)
+        edges = map(lambda x: (x, cm.random(0, 1)), edges)
+        vertex = (i, list(edges))
         graph.append(vertex)
     return graph
 
 
-def dfs(graph, start):
+def prim(graph, start):
     size = len(graph)
     visited = [0 for _ in range(size)]
     depth = [0 for _ in range(size)]
-    frontier = [start]
+    frontier = [(start, 0)]
     depth[start] = 0
     visited[start] = 1
     collected = []
-    while len(frontier):
-        index = frontier.pop()
+    while len(collected) < size:
+        index, _ = pop_min(frontier)
         v, e = graph[index]
         collected.append((v, depth[v]))
-        for n in e:
+        for n, w in e:
             if visited[n] == 0:
                 depth[n] = depth[index] + 1
                 visited[n] = 1
-                frontier.append(n)
+                frontier.append((n, w))
     return collected
+
+
+def pop_min(list):
+    mi = 0
+    mv = 1
+    for i, e in enumerate(list):
+        if e[1] < mv:
+            mv, mi = e[1], i
+    swap(list, mi, -1)
+    return list.pop()
 
 
 def swap(list, i, j):
@@ -71,7 +83,7 @@ def setup():
     global vertices, max_depth, width, height
     width, height = cm.get_width(), cm.get_height()
     graph = generate_graph(width, height)
-    vertices = dfs(graph, int(cm.random(width * height)))
+    vertices = prim(graph, int(cm.random(width * height)))
     max_depth = cm.max(map(lambda x: x[1], vertices))
 
 

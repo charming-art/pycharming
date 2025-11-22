@@ -236,7 +236,7 @@ Methods for drawing 2D basic shapes.
 - [cm.circle](./shape.md#circle) - Draws a circle to the screen. By default, the first two parameters set the location of the center, and the third sets the shape's width and height.
 - [cm.ellipse](./shape.md#ellipse) - Draws an ellipse (oval) to the screen. An ellipse with equal width and height is a circle.
 - [cm.line](./shape.md#line) - Draws a line (a direct path between two points) to the screen.
-- [cm.point](.shape.md#point) - Draws a point, a coordinate in space at the dimension of one cell.
+- [cm.point](./shape.md#point) - Draws a point, a coordinate in space at the dimension of one cell.
 - [cm.quad](./shape.md#quad) - A quad is a quadrilateral, a four sided polygon.
 - [cm.rect](./shape.md#rect) - Draws a rectangle to the screen. A rectangle is a four-sided shape with every angle at ninety degrees.
 - [cm.square](./shape.md#square) - Draws a square to the screen.

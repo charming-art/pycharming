@@ -1,6 +1,6 @@
-# Processing&P5.js to Charming
+# Migration
 
-Charming implements most of Processing's APIs related to 2D, which can be found [here](./api/readme.md). But due to the grammar differences between Python and Java and different design purposes, there are some differences between the usage of Charming and Processing&P5.js.
+Charming implements most of Processing's APIs related to 2D, which can be found [here](/docs/api/readme). But due to the grammar differences between Python and Java and different design purposes, there are some differences between the usage of Charming and Processing&P5.js.
 
 This article is going to show the main difference between them and help you migrate from Processing&P5.js to Charming quickly.
 
@@ -103,7 +103,7 @@ app.background(c)
 ## Context Manager
 
 In Processing, you need to call a method to open a context and followed by a close context method, such as `beginShape` with `endShape`. But with the help of context manager in Python, you can use `with` to open a context.
-  
+
 ```py
 # normal way of opening a context
 app.begin_shape()

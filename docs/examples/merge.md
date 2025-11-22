@@ -1,6 +1,6 @@
 # Merge Sort
 
-This is visualization for merge sort which shows the progress of sorting traditional Chinese mahjong. You can see that it is really fast. [[source](../../examples/merge.py)]
+This is visualization for merge sort which shows the progress of sorting traditional Chinese mahjong. You can see that it is really fast. [[source](https://github.com/gh2hq/gh2/blob/main/examples/merge.py)]
 
 ![merge](https://raw.githubusercontent.com/gh2hq/public-files/master/example_merge.gif)
 
