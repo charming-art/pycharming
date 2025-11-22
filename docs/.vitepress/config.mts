@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {text: "Docs", link: "/docs/what-is-pycharming"},
-      {text: "Examples", link: "/examples/zeros"},
+      {text: "Examples", link: "/examples/readme"},
       {text: "Editor", link: "https://editor.gh2.dev/"},
     ],
     sidebar: {
@@ -63,19 +63,40 @@ export default defineConfig({
       ],
       "/examples": [
         {text: "Gallery", link: "/examples/readme"},
-        {text: "Information", link: "/examples/information"},
-        {text: "Mandelbrot Set", link: "/examples/mandelbrot-set"},
-        {text: "Bar Chart", link: "/examples/bar"},
-        {text: "BFS", link: "/examples/bfs"},
-        {text: "Bubble Sort", link: "/examples/bubble"},
-        {text: "DFS", link: "/examples/dfs"},
-        {text: "Globe", link: "/examples/globe"},
-        {text: "Heart", link: "/examples/heart"},
-        {text: "Insertion Sort", link: "/examples/insertion"},
-        {text: "Merge Sort", link: "/examples/merge"},
-        {text: "Pie Chart", link: "/examples/pie"},
-        {text: "Prim", link: "/examples/prim"},
-        {text: "Snake", link: "/examples/snake"},
+        {
+          text: "Basic Examples",
+          items: [
+            {text: "Zeros", link: "/examples/zeros"},
+            {text: "Information", link: "/examples/information"},
+            {text: "Mandelbrot Set", link: "/examples/mandelbrot-set"},
+          ],
+        },
+        {
+          text: "Visualizations",
+          items: [
+            {text: "Bar Chart", link: "/examples/bar"},
+            {text: "Pie Chart", link: "/examples/pie"},
+            {text: "Globe", link: "/examples/globe"},
+            {text: "Heart", link: "/examples/heart"},
+          ],
+        },
+        {
+          text: "Algorithms",
+          items: [
+            {text: "BFS", link: "/examples/bfs"},
+            {text: "DFS", link: "/examples/dfs"},
+            {text: "Prim", link: "/examples/prim"},
+            {text: "Bubble Sort", link: "/examples/bubble"},
+            {text: "Insertion Sort", link: "/examples/insertion"},
+            {text: "Merge Sort", link: "/examples/merge"},
+          ],
+        },
+        {
+          text: "Games",
+          items: [
+            {text: "Snake", link: "/examples/snake"},
+          ],
+        },
       ],
     },
     socialLinks: [{icon: "github", link: "https://github.com/gh2hq/gh2"}],
