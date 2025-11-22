@@ -16,7 +16,7 @@ There are many reasons for creating PyCharming, but the most important one is th
 ## 📎 Links
 
 - [Introduction](./docs/introduction.md)
-- [Tutorials](./docs/tutorials/readme.md)
+- [Features](./docs/features/readme.md)
 - [API Reference](./docs/api/readme.md)
 - [Examples](./docs/examples/readme.md)
 - [Processing&P5.js to PyCharming](./docs/processing&p5js-to-charming.md)
