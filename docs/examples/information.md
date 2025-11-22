@@ -1,5 +1,7 @@
 # Information
 
+![preview](/img/example_information.png)
+
 ```py
 import charming as cm
 

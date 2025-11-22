@@ -1,5 +1,7 @@
 # Zeros
 
+![preview](/img/example_zeros.png)
+
 ```py
 import charming as cm
 

@@ -1,5 +1,7 @@
 # Mandelbrot Set
 
+![preview](/img/example_mandelbrot.png)
+
 ```py
 import charming as cm
 
