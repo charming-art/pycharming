@@ -2,7 +2,9 @@
 
 Methods for creating, reading and setting colors.
 
-<a name="ccolor" href="#ccolor">#</a> cm.**CColor**(*ch*=" "[, *fg*[, *bg*]]) : CColor
+<!-- <a name="ccolor" href="#ccolor">#</a> cm.**CColor**(*ch*=" "[, *fg*[, *bg*]]) : CColor -->
+
+## cm.**CColor**(*ch*=" "[, *fg*[, *bg*]]) : CColor {#ccolor}
 
 Creates colors for storing in variables of the color data type. The `fg` or `bg` parameters are interpreted as ANSI, RGB or HSB values depending on the current `color_mode`.
 
@@ -34,8 +36,8 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_ccolor.png" width="100%"/>
 
-<a name="background" href="#background">#</a> cm.**background**(*ch*=" "[, *fg*[, *bg*]])<br>
-<a name="background" href="#background">#</a> cm.**background**(*ccolor*)
+## cm.**background**(*ch*=" "[, *fg*[, *bg*]]) {#background}
+cm.**background**(*ccolor*)
 
 Sets the color used for the background of terminal. The `fg` or `bg` parameters are interpreted as ANSI, RGB or HSB values depending on the current `color_mode`.
 
@@ -81,8 +83,8 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_background.gif" width="100%"/>
 
-<a name="fill" href="#fill">#</a> cm.**fill**(*ch*=" "[, *fg*[, *bg*]])<br/>
-<a name="fill" href="#fill">#</a> cm.**fill**(*ccolor*)
+## cm.**fill**(*ch*=" "[, *fg*[, *bg*]]) {#fill}
+cm.**fill**(*ccolor*)
 
 Sets the color used to fill shapes. The `fg` or `bg` parameters are interpreted as ANSI, RGB or HSB values depending on the current `color_mode`.
 
@@ -103,7 +105,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_fill.png" width="100%"/>
 
-<a name="no_fill" href="#no_fill">#</a> cm.**no_fill**()
+## cm.**no_fill**() {#no_fill}
 
 Disables filling shapes. If both `no_stroke()` and `no_fill()` are called, nothing will be drawn to the screen.
 
@@ -124,7 +126,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_no_fill.png" width="100%"/>
 
-<a name="no_stroke" href="#no_stroke">#</a> cm.**no_stroke**()
+## cm.**no_stroke**() {#no_stroke}
 
 Disables drawing the stroke (outline). If both `no_stroke()` and `no_fill()` are called, nothing will be drawn to the screen.
 
@@ -145,8 +147,8 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_no_stroke.png" width="100%"/>
 
-<a name="stroke" href="#stroke">#</a> cm.**stroke**(*ch*="*"[, *fg*[, *bg*]])<br/>
-<a name="stroke" href="#stroke">#</a> cm.**stroke**(*ccolor*)
+## cm.**stroke**(*ch*="*"[, *fg*[, *bg*]]) {#stroke}
+cm.**stroke**(*ccolor*)
 
 Sets the color used to draw lines and borders around shapes. The `fg` or `bg` parameters are interpreted as ANSI, RGB or HSB values depending on the current `color_mode`.
 
@@ -165,7 +167,7 @@ cm.rect(20, 0, 10, 5)
 cm.run()
 ```
 
-<a name="color_mode" href="#color_mode">#</a> cm.**color_mode**(*mode*=ANSI | RGB | HSB[, *max1*[, *max2*, [, *max3*]]])
+## cm.**color_mode**(*mode*=ANSI | RGB | HSB[, *max1*[, *max2*, [, *max3*]]]) {#color_mode}
 
 color_mode() changes the way Charming interprets color data. By default, the parameters for fill(), stroke(), background(), and color() are defined by values between 0 and 255 using ANSI color.
 
@@ -287,7 +289,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_color_mode_rgb_gray.png" width="100%"/>
 
-<a name="lerp_color" href="#lerp_color">#</a> cm.**lerp_color**(*start*, *stop*, *amt*)
+## cm.**lerp_color**(*start*, *stop*, *amt*) {#lerp_color}
 
 Blends two colors to find a third color somewhere between them. The amt parameter is the amount to interpolate between the two values where 0.0 equal to the first color, 0.1 is very near the first color, 0.5 is halfway in between, etc.
 

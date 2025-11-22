@@ -1,6 +1,6 @@
 # Structure
 
-<a name="setup" href="#setup">#</a> cm.**setup**(*foo*)
+## cm.**setup**(*foo*) {#setup}
 
 The function decorated by setup() decorator is called once when the program starts. It's used to define initial environment properties such as screen size and background color and to load media such as images as the program starts.
 
@@ -32,7 +32,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_setup.gif" />
 
-<a name="draw" href="#draw">#</a> cm.**draw**(*foo*)
+## cm.**draw**(*foo*) {#draw}
 
 The function decorated by draw() called directly after setup(), it continuously executes the lines of code contained inside its block until the program is stopped or no_loop() is called. Note if no_loop() is called in setup(), draw() will still be executed once before stopping. draw() is called automatically and should never be called explicitly.
 
@@ -62,7 +62,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_draw.gif" />
 
-<a name="run" href="#run">#</a> cm.**run**()
+## cm.**run**() {#run}
 
 Run the sketch or nothing magic will happen.
 
@@ -79,15 +79,15 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_run.png" />
 
-<a name="no_loop" href="#no_loop">#</a> cm.**no_loop**()
+## cm.**no_loop**() {#no_loop}
 
 Stops Charming from continuously executing the code within draw(). If loop() is called, the code in draw() begins to run continuously again. If using no_loop() in setup(), it should be the last line inside the block.
 
-<a name="loop" href="#loop">#</a> cm.**loop**()
+## cm.**loop**() {#loop}
 
 By default, Charming loops through draw() continuously, executing the code within it. However, the draw() loop may be stopped by calling no_loop(). In that case, the draw() loop can be resumed with loop().
 
-<a name="get_is_looping" href="#get_is_looping">#</a> cm.**get_is_looping**()
+## cm.**get_is_looping**() {#get_is_looping}
 
 ```py
 import charming as cm
@@ -122,7 +122,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_loop.gif" />
 
-<a name="redraw" href="#redraw">#</a> cm.**redraw**()
+## cm.**redraw**() {#redraw}
 
 Executes the code within draw() one time. This function allows the program to update the display window only when necessary, for example when an event registered by mouse_pressed() or key_pressed() occurs.
 
@@ -157,8 +157,8 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_redraw.gif" />
 
-<a name="push" href="#push">#</a> cm.**push**() <br/>
-<a name="pop" href="#pop">#</a> cm.**pop**()
+## cm.**push**() {#push}
+## cm.**pop**() {#pop}
 
 The push() function saves the current drawing style settings and transformations, while pop() restores these settings. Note that these functions are always used together. They allow you to change the style and transformation settings and later return to what you had. When a new state is started with push(), it builds on the current style and transform information.
 
@@ -184,7 +184,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_push.png" />
 
-<a name="open_context" href="#open_context">#</a> cm.**open_context**()
+## cm.**open_context**() {#open_context}
 
 The syntactic sugar for push() and pop().
 
@@ -209,7 +209,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_push.png" />
 
-<a name="exit" href="#exit">#</a> cm.**exit**()
+## cm.**exit**() {#exit}
 
 Exit the sketch.
 

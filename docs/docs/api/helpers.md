@@ -1,6 +1,6 @@
 # Helpers
 
-<a name="print" href="#print">#</a> cm.**print**(*\*args*, *\*\*kw*) : any
+## cm.**print**(*\*args*, *\*\*kw*) : any {#print}
 
 Print output to file to debug.
 
@@ -12,7 +12,7 @@ app.print([1, 2, 3])
 app.print(2, 3, {'hello': 1}, test="test")
 ```
 
-<a name="check_params" href="#check_params">#</a> cm.**check_params**()
+## cm.**check_params**() {#check_params}
 
 Checks the type of params to output the potential error.
 

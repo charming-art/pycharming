@@ -1,6 +1,6 @@
 # Transform
 
-<a name="translate" href="#translate">#</a> cm.**translate**(*tx*, *ty*)
+## cm.**translate**(*tx*, *ty*) {#translate}
 
 Specifies an amount to displace objects within the display window. The x parameter specifies left/right translation, the y parameter specifies up/down translation.
 
@@ -23,7 +23,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_translate.png" />
 
-<a name="scale" href="#scale">#</a> cm.**scale**(*sx*[, *sy*])
+## cm.**scale**(*sx*[, *sy*]) {#scale}
 
 Increases or decreases the size of a shape by expanding or contracting vertices. Objects always scale from their relative origin to the coordinate system. Scale values are specified as decimal percentages. For example, the function call scale(2.0) increases the dimension of a shape by 200%.
 
@@ -47,7 +47,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_scale.png" />
 
-<a name="rotate" href="#rotate">#</a> cm.**rotate**(*x*)
+## cm.**rotate**(*x*) {#rotate}
 
 Rotates a shape by the amount specified by the angle parameter.
 
@@ -72,7 +72,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_rotate.png" />
 
-<a name="shear_x" href="#shear_x">#</a> cm.**shear_x**(*x*)
+## cm.**shear_x**(*x*) {#shear_x}
 
 Shears a shape around the x-axis by the amount specified by the angle parameter.
 
@@ -100,7 +100,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_shear_x.png" />
 
-<a name="shear_y" href="#shear_y">#</a> cm.**shear_y**(*x*)
+## cm.**shear_y**(*x*) {#shear_y}
 
 Shears a shape around the y-axis the amount specified by the angle parameter. Objects are always sheared around their relative position to the origin and positive numbers shear objects in a clockwise direction.
 

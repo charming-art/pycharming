@@ -2,11 +2,11 @@
 
 Methods for set and get runtime environment.
 
-<a name="cursor" href="#cursor">#</a> cm.**cursor**()
+## cm.**cursor**() {#cursor}
 
 Set the cursor visible.
 
-<a name="set_cursor" href="#set_cursor">#</a> cm.**set_cursor**(*x*, *y*)
+## cm.**set_cursor**(*x*, *y*) {#set_cursor}
 
 Set the positions of cursor in cells.
 
@@ -21,7 +21,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_cursor.png" />
 
-<a name="no_cursor" href="#no_cursor">#</a> cm.**no_cursor**()
+## cm.**no_cursor**() {#no_cursor}
 
 Hide the cursor.
 
@@ -36,11 +36,11 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_no_cursor.png" />
 
-<a name="frame_rate" href="#frame_rate">#</a> cm.**frame_rate**(*rate*)
+## cm.**frame_rate**(*rate*) {#frame_rate}
 
 Specifies the number of frames to be displayed every second. For example, the function call frameRate(30) will attempt to refresh 30 times a second. If the processor is not fast enough to maintain the specified rate, the frame rate will not be achieved. Setting the frame rate within setup() is recommended.
 
-<a name="get_frame_count" href="#get_frame_count">#</a> cm.**get_frame_count**() : *number*
+## cm.**get_frame_count**() : *number* {#get_frame_count}
 
 The system variable frameCount contains the number of frames that have been displayed since the program started.
 
@@ -69,7 +69,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_frame_rate.gif" />
 
-<a name="full_screen" href="#full_screen">#</a> cm.**full_screen**(*mode=SINGLE | DOUBLE*)
+## cm.**full_screen**(*mode=SINGLE | DOUBLE*) {#full_screen}
 
 Sets the sketch to fill the entire terminal.
 
@@ -160,11 +160,11 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_full_screen_double.gif" />
 
-<a name="get_height" href="#get_height">#</a> cm.**get_height**() : *number*
+## cm.**get_height**() : *number* {#get_height}
 
 System variable that stores the height of the drawing canvas.
 
-<a name="get_width" href="#get_width">#</a> cm.**get_width**() : *number*
+## cm.**get_width**() : *number* {#get_width}
 
 System variable that stores the width of the drawing canvas.
 
@@ -179,7 +179,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_dimensions.png" />
 
-<a name="size" href="#size">#</a> cm.**get_width**(*width*, *height*, *mode=SINGLE | DOUBLE*)
+## cm.**get_width**(*width*, *height*, *mode=SINGLE | DOUBLE*) {#size}
 
 Sets the dimensions of it in cells for the sketch.
 

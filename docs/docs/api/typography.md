@@ -1,6 +1,6 @@
 # Typography
 
-<a name="text" href="#text">#</a> cm.**text**(*text*, *x*, *y*)
+## cm.**text**(*text*, *x*, *y*) {#text}
 
 Draws text to the screen. Displays the information specified in the first parameter on the screen in the position specified by the additional parameters.
 
@@ -40,7 +40,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_text.png" />
 
-<a name="text_width" href="#text_width">#</a> cm.**text_width**(*text*) : *number*
+## cm.**text_width**(*text*) : *number* {#text_width}
 
 Calculates and returns the width of any character or text string.
 
@@ -68,7 +68,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_text_width.png" />
 
-<a name="text_align" href="#text_align">#</a> cm.**text_align**(*align_x*=LEFT | RIGHT | CENTER[, *align_y*=TOP | BOTTOM | MIDDLE])
+## cm.**text_align**(*align_x*=LEFT | RIGHT | CENTER[, *align_y*=TOP | BOTTOM | MIDDLE]) {#text_align}
 
 Sets the current alignment for drawing text.The parameters LEFT, CENTER, and RIGHT set the display characteristics of the letters in relation to the values for the x and y parameters of the text() function.
 
@@ -133,7 +133,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_text_align_y.png" />
 
-<a name="text_size" href="#text_size">#</a> cm.**text_size**(*size*=NORMAL | BIG |LARGE))
+## cm.**text_size**(*size*=NORMAL | BIG |LARGE)) {#text_size}
 
 Sets the current font size.
 
@@ -158,7 +158,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_text_size.png" />
 
-<a name="text_height" href="#text_height">#</a> cm.**text_height**(*text*) : *number*
+## cm.**text_height**(*text*) : *number* {#text_height}
 
 Calculates and returns the height of any character or text string.
 
@@ -185,7 +185,7 @@ cm.run()
 
 <img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_text_height.png" />
 
-<a name="get_font_list" href="#get_font_list">#</a> cm.**get_font_list**(*text*, *x*, *y*) : *string[]*
+## cm.**get_font_list**(*text*, *x*, *y*) : *string[]* {#get_font_list}
 
 Returns the supported font list for text with BIG font size.
 
@@ -198,7 +198,7 @@ print(font_list) # ['clb6x10', 'nipples', 'computer', ...]
 print(len(font_list)) # 425
 ```
 
-<a name="text_font" href="#text_font">#</a> cm.**text_font**(*name*)
+## cm.**text_font**(*name*) {#text_font}
 
 Sets the current font that will be drawn with the text() function.
 

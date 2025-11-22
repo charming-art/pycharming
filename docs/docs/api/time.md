@@ -2,31 +2,31 @@
 
 Methods for returning information about current time.
 
-<a name="day" href="#day">#</a> cm.**day**()
+## cm.**day**() {#day}
 
 Returns the current day as a value from 1 - 31.
 
-<a name="hour" href="#hour">#</a> cm.**hour**()
+## cm.**hour**() {#hour}
 
 Returns the current hour as a value from 0 - 23.
 
-<a name="millis" href="#millis">#</a> cm.**millis**()
+## cm.**millis**() {#millis}
 
 Returns the number of milliseconds (thousandths of a second) since starting the program.
 
-<a name="minute" href="#minute">#</a> cm.**minute**()
+## cm.**minute**() {#minute}
 
 Returns the current minute as a value from 0 - 59.
 
-<a name="month" href="#month">#</a> cm.**month**()
+## cm.**month**() {#month}
 
 Returns the current month as a value from 1 - 12.
 
-<a name="second" href="#second">#</a> cm.**second**()
+## cm.**second**() {#second}
 
 Returns the current second as a value from 0 - 59.
 
-<a name="year" href="#year">#</a> cm.**year**()
+## cm.**year**() {#year}
 
 Returns the current year as an integer (2003, 2004, 2005, etc).
   

@@ -2,7 +2,7 @@
 
 Methods for IO.
 
-<a name="load_json" href="#load_json">#</a> cm.**load_json**(*filename*)
+## cm.**load_json**(*filename*) {#load_json}
 
 Loads data from JSON file to dict object.
 
@@ -36,7 +36,7 @@ print(o, a)
 # [{'name': 'Peter', 'age': 10}, {'name': 'Tom', 'age': 15}]
 ```
 
-<a name="load_csv" href="#load_csv">#</a> cm.**load_csv**(*filename*)
+## cm.**load_csv**(*filename*) {#load_csv}
 
 Loads data from CSV file to dict object.
 
