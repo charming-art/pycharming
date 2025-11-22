@@ -1,14 +1,18 @@
-# PyCharming: A Python Library for ASCII Art
+# PyCharming: Character Terminal Art Programming
 
 A Python library for Processing-style creative coding in the terminal. Create ASCII art, generative art, terminal games, and expressive data visualizations.
 
 <img src="/docs/public/img/cover.png" alt="cover" width="100%">
 
-## Documentation 📚
+## 🎬 Demo
+
+<img src="/docs/public/img/hello_world.gif" alt="cover" width="100%">
+
+## 📚 Documentation
 
 https://pycharming.vercel.app
 
-## Examples 🖼️
+## 🖼️ Examples
 
 https://pycharming.vercel.app/examples/overview
 
