@@ -3,8 +3,8 @@ import terminal from "./markdown-it-terminal.js";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "gh2",
-  description: "The creative coding language for ASCII art and poetic form",
+  title: "PyCharming",
+  description: "Character Terminal Art Programming - A creative coding language for ASCII art and poetic form",
   appearance: "force-dark",
   head: [["link", {rel: "icon", type: "image/png", href: "/icon-black.png"}]],
   cleanUrls: true,
@@ -26,6 +26,7 @@ export default defineConfig({
           items: [
             {text: "What is PyCharming?", link: "/docs/what-is-pycharming"},
             {text: "Why PyCharming?", link: "/docs/why-pycharming"},
+            {text: "Get Started", link: "/docs/get-started"},
             {text: "Migration", link: "/docs/migration"},
             {text: "API Index", link: "/docs/api/readme"},
           ],
