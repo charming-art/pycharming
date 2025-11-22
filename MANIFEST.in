@@ -1,5 +1,4 @@
 include LICENSE
-graft docs
 graft examples
 graft tests
 global-exclude *.pyc
