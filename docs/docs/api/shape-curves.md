@@ -49,7 +49,7 @@ with cm.open_context():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_bezier.png" width="100%"/>
+<img src="/img/test_bezier.png" width="100%"/>
 
 ## cm.**curve**(*x1*, *y1*, *x2*, *y2*, *x3*, *y3*, *x4*, *y4*) {#curve}
 
@@ -90,7 +90,7 @@ with cm.open_context():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_curve_tightness.png" width="100%"/>
+<img src="/img/test_curve_tightness.png" width="100%"/>
 
 ## cm.**curve_point**(*n1*, *n2*, *n3*, *n4*, *t*) {#curve_point}
 
@@ -124,4 +124,4 @@ with cm.open_context():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_curve.png" width="100%"/>
+<img src="/img/test_curve.png" width="100%"/>

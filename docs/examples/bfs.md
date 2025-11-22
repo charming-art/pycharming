@@ -2,9 +2,9 @@
 
 This is the art visualization for BFS algorithm, inspired by [Mike Bostock](https://bl.ocks.org/mbostock/11337835). [[source](https://github.com/gh2hq/gh2/blob/main/examples/bfs.py)]
 
-![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_bfs.gif)
+![bfs](/img/example_bfs.gif)
 
-![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_bfs.png)
+![bfs](/img/example_bfs.png)
 
 ```py
 import charming as cm

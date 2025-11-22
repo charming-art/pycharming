@@ -72,4 +72,4 @@ def cursor_pressed():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_event_cursor.gif" width="100%"/>
+<img src="/img/test_event_cursor.gif" width="100%"/>

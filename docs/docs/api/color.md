@@ -34,7 +34,7 @@ cm.point(3, 3) # ('@', cm.RED, cm.YELLOW)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_ccolor.png" width="100%"/>
+<img src="/img/test_ccolor.png" width="100%"/>
 
 ## cm.**background**(*ch*=" "[, *fg*[, *bg*]]) {#background}
 cm.**background**(*ccolor*)
@@ -81,7 +81,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_background.gif" width="100%"/>
+<img src="/img/test_background.gif" width="100%"/>
 
 ## cm.**fill**(*ch*=" "[, *fg*[, *bg*]]) {#fill}
 cm.**fill**(*ccolor*)
@@ -103,7 +103,7 @@ cm.rect(20, 0, 10, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_fill.png" width="100%"/>
+<img src="/img/test_fill.png" width="100%"/>
 
 ## cm.**no_fill**() {#no_fill}
 
@@ -124,7 +124,7 @@ cm.rect(20, 0, 10, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_no_fill.png" width="100%"/>
+<img src="/img/test_no_fill.png" width="100%"/>
 
 ## cm.**no_stroke**() {#no_stroke}
 
@@ -145,7 +145,7 @@ cm.rect(20, 0, 10, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_no_stroke.png" width="100%"/>
+<img src="/img/test_no_stroke.png" width="100%"/>
 
 ## cm.**stroke**(*ch*="*"[, *fg*[, *bg*]]) {#stroke}
 cm.**stroke**(*ccolor*)
@@ -186,7 +186,7 @@ for i in range(256):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_color_mode_ansi_256.png" width="100%"/>
+<img src="/img/test_color_mode_ansi_256.png" width="100%"/>
 
 To make it easier to use ANSI color, there are some predefined constants which can be used directly as below.
 
@@ -218,7 +218,7 @@ for i, c in enumerate(colors):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_color_mode_ansi_baisc.png" width="100%"/>
+<img src="/img/test_color_mode_ansi_baisc.png" width="100%"/>
 
 Setting `color_mode(HSB)` lets you use the HSB system instead. In this situation, each color is represented by three-elements tuple `(hue, saturation, brightness)`. The hue channel is between 0 and 255, and the saturation or brightness channel is between 0 and 100. It is useful to draw a rainbow.
 
@@ -243,7 +243,7 @@ for hue in range(360):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_color_mode_hsb.png" width="100%"/>
+<img src="/img/test_color_mode_hsb.png" width="100%"/>
 
 Setting `color_mode(RGB)` lets you use the HSB system instead. In this situation, each color is represented by three-elements tuple `(red, green, blue)`. The red, green, blue channels are all between 0 and 255. `(c,)` is short for `(c, c, c)`. It can be used to draw color with only one channel.
 
@@ -265,7 +265,7 @@ for i in range(n):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_color_mode_rgb_red.png" width="100%"/>
+<img src="/img/test_color_mode_rgb_red.png" width="100%"/>
 
 It also can be used to draw gray colors.
 
@@ -287,7 +287,7 @@ for i in range(n):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_color_mode_rgb_gray.png" width="100%"/>
+<img src="/img/test_color_mode_rgb_gray.png" width="100%"/>
 
 ## cm.**lerp_color**(*start*, *stop*, *amt*) {#lerp_color}
 
@@ -315,7 +315,7 @@ for i in range(n):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_lerp_color_ansi.png" width="100%"/>
+<img src="/img/test_lerp_color_ansi.png" width="100%"/>
 
 It also can be used to interpolate color in RGB and HSB color mode.
 
@@ -340,4 +340,4 @@ for i in range(n):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_lerp_color_rgb.png" width="100%"/>
+<img src="/img/test_lerp_color_rgb.png" width="100%"/>

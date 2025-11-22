@@ -25,7 +25,7 @@ cm.run()
 $ python3 rect.py
 ```
 
-![get started](https://raw.githubusercontent.com/gh2hq/public-files/master/get_started.png)
+![get started](/img/get_started.png)
 
 ## Coming from Processing?
 

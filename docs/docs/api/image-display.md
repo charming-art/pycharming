@@ -18,7 +18,7 @@ cm.image(img, 0, 0, 30, 15)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_image.png" />
+<img src="/img/test_image.png" />
 
 ## cm.**load_image**(*src*) : CImage {#load_image}
 
@@ -40,7 +40,7 @@ cm.run()
 
 If it loads a active image such as gif format, it will returns a CImage array.
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_image.png" />
+<img src="/img/test_image.png" />
 
 ```py
 import charming as cm
@@ -67,7 +67,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_load_image.gif" />
+<img src="/img/test_load_image.gif" />
 
 ## cm.**no_tint**() {#no_tint}
 
@@ -89,7 +89,7 @@ cm.image(img, 32, 0, 30, 15)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_no_tint.png" />
+<img src="/img/test_no_tint.png" />
 
 ## cm.**tint**(*ch*=" "[, *fg*[, *bg*]]) {#tint}
 cm.**tint**(*ccolor*)
@@ -109,4 +109,4 @@ cm.image(img, 0, 0, 30, 15)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_tint.png" />
+<img src="/img/test_tint.png" />

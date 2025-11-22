@@ -2,9 +2,9 @@
 
 This is visualization for bubble sort which shows the progress of sorting traditional Chinese mahjong. You can see that there is always a sorted suffix. [[source](https://github.com/gh2hq/gh2/blob/main/examples/bubble.py)]
 
-![bubble](https://raw.githubusercontent.com/gh2hq/public-files/master/example_bubble.gif)
+![bubble](/img/example_bubble.gif)
 
-![bubble](https://raw.githubusercontent.com/gh2hq/public-files/master/example_bubble.png)
+![bubble](/img/example_bubble.png)
 
 ```py
 from random import shuffle

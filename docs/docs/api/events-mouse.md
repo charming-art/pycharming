@@ -32,7 +32,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_mouse_pos.gif" width="100%"/>
+<img src="/img/test_get_mouse_pos.gif" width="100%"/>
 
 ## cm.**get_mouse_pressed**() : *boolean* {#get_mouse_pressed}
 
@@ -66,7 +66,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_mouse_button.gif" width="100%"/>
+<img src="/img/test_get_mouse_button.gif" width="100%"/>
 
 ## cm.**mouse_clicked**(*foo*) {#mouse_clicked}
 
@@ -101,7 +101,7 @@ def mouse_clicked():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_mouse_button.gif" width="100%"/>
+<img src="/img/test_get_mouse_button.gif" width="100%"/>
 
 ## cm.**mouse_pressed**(*foo*) {#mouse_pressed}
 
@@ -138,7 +138,7 @@ def mouse_pressed():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_mouse_button.gif" width="100%"/>
+<img src="/img/test_get_mouse_button.gif" width="100%"/>
 
 ## cm.**mouse_released**(*foo*) {#mouse_released}
 
@@ -173,4 +173,4 @@ def mouse_released():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_mouse_button.gif" width="100%"/>
+<img src="/img/test_get_mouse_button.gif" width="100%"/>

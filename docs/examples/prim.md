@@ -2,9 +2,9 @@
 
 This is the art visualization for Prim algorithm, inspired by [Mike Bostock](https://bl.ocks.org/mbostock/11337835). [[source](https://github.com/gh2hq/gh2/blob/main/examples/prim.py)]
 
-![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_prim.gif)
+![bfs](/img/example_prim.gif)
 
-![bfs](https://raw.githubusercontent.com/gh2hq/public-files/master/example_prim.png)
+![bfs](/img/example_prim.png)
 
 ```py
 import charming as cm

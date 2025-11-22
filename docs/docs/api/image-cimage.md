@@ -23,7 +23,7 @@ cm.image(img, 0, 0, 10, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_cimage.png" />
+<img src="/img/test_cimage.png" />
 
 ## CImage.**load_pixels**() {#load_pixels}
 
@@ -60,4 +60,4 @@ cm.image(img, 0, 0, 30, 15)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_cimage_method.png" />
+<img src="/img/test_cimage_method.png" />

@@ -28,7 +28,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_polygon.png" width="100%"/>
+<img src="/img/test_begin_shape_polygon.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -52,7 +52,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_lines.png" width="100%"/>
+<img src="/img/test_begin_shape_lines.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -76,7 +76,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_points.png" width="100%"/>
+<img src="/img/test_begin_shape_points.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -102,7 +102,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_triangles.png" width="100%"/>
+<img src="/img/test_begin_shape_triangles.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -129,7 +129,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_triangle_strip.png" width="100%"/>
+<img src="/img/test_begin_shape_triangle_strip.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -155,7 +155,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_triangle_fan.png" width="100%"/>
+<img src="/img/test_begin_shape_triangle_fan.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -183,7 +183,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_quads.png" width="100%"/>
+<img src="/img/test_begin_shape_quads.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -211,7 +211,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_quad_strip.png" width="100%"/>
+<img src="/img/test_begin_shape_quad_strip.png" width="100%"/>
 
 ## cm.**end_shape**(*mode=OPEN | CLOSE*) {#end_shape}
 
@@ -244,7 +244,7 @@ cm.end_shape(cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_end_shape.png" width="100%"/>
+<img src="/img/test_end_shape.png" width="100%"/>
 
 ## cm.**vertex**(*x*, *y*) {#vertex}
 
@@ -272,7 +272,7 @@ cm.end_shape(close_mode=cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_begin_shape_polygon.png" width="100%"/>
+<img src="/img/test_begin_shape_polygon.png" width="100%"/>
 
 ## cm.**open_shape**(*primitive_type=POLYGON | POINTS | LINES | TRIANGLES | TRIANGLE_STRIP | TRIANGLE_FAN, mode=OPEN | CLOSE*) {#open_shape}
 
@@ -298,7 +298,7 @@ with cm.open_shape(cm.LINES, cm.CLOSE):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_open_shape.png" width="100%"/>
+<img src="/img/test_open_shape.png" width="100%"/>
 
 ## cm.**begin_contour**() {#begin_contour}
 ## cm.**end_contour**() {#end_contour}
@@ -339,7 +339,7 @@ cm.end_shape(cm.CLOSE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_contour.png" width="100%"/>
+<img src="/img/test_contour.png" width="100%"/>
 
 ## cm.**open_contour**() {#open_contour}
 
@@ -372,7 +372,7 @@ with cm.open_shape(close_mode=cm.CLOSE):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_open_contour.png" width="100%"/>
+<img src="/img/test_open_contour.png" width="100%"/>
 
 ## cm.**bezier_vertex**(*x1*, *y1*, *x2*, *y2*, *x3*, *y3*) {#bezier_vertex}
 
@@ -400,7 +400,7 @@ with cm.open_shape():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_bezier_vertex.png" width="100%"/>
+<img src="/img/test_bezier_vertex.png" width="100%"/>
 
 ## cm.**bezier_vertex**(*x*, *y*) {#curve_vertex}
 
@@ -431,4 +431,4 @@ with cm.open_shape():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_curve_vertex.png" width="100%"/>
+<img src="/img/test_curve_vertex.png" width="100%"/>

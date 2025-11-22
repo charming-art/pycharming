@@ -21,7 +21,7 @@ cm.rect(0, 0, 5, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_translate.png" />
+<img src="/img/test_translate.png" />
 
 ## cm.**scale**(*sx*[, *sy*]) {#scale}
 
@@ -45,7 +45,7 @@ cm.rect(3, 2, 10, 6)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_scale.png" />
+<img src="/img/test_scale.png" />
 
 ## cm.**rotate**(*x*) {#rotate}
 
@@ -70,7 +70,7 @@ cm.rect(-5, -5, 10, 10)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_rotate.png" />
+<img src="/img/test_rotate.png" />
 
 ## cm.**shear_x**(*x*) {#shear_x}
 
@@ -98,7 +98,7 @@ cm.run()
 
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_shear_x.png" />
+<img src="/img/test_shear_x.png" />
 
 ## cm.**shear_y**(*x*) {#shear_y}
 
@@ -124,4 +124,4 @@ cm.run()
 
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_shear_y.png" />
+<img src="/img/test_shear_y.png" />

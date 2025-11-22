@@ -63,4 +63,4 @@ def wrap(n):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_time.gif" />
+<img src="/img/test_time.gif" />

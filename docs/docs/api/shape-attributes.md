@@ -29,7 +29,7 @@ cm.ellipse(12, 6, 20, 10)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_ellipse_mode_center.png" width="100%"/>
+<img src="/img/test_ellipse_mode_center.png" width="100%"/>
 
 ellipse_mode(CORNER) interprets the first two parameters as the upper-left corner of the shape, while the third and fourth parameters are its width and height.
 
@@ -54,7 +54,7 @@ cm.ellipse(8, 4, 16, 8)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_ellipse_mode_corner.png" width="100%"/>
+<img src="/img/test_ellipse_mode_corner.png" width="100%"/>
 
 ## cm.**rect_mode**(*mode=CENTER | RADIUS | CORNER | CORNERS*) {#rect_mode}
 
@@ -83,7 +83,7 @@ cm.rect(8, 4, 16, 8)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_rect_mode_corner.png" width="100%"/>
+<img src="/img/test_rect_mode_corner.png" width="100%"/>
 
 rect_mode(CENTER) interprets the first two parameters as the shape's center point, while the third and fourth parameters are its width and height.
 
@@ -108,7 +108,7 @@ cm.rect(12, 6, 10, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_rect_mode_center.png" width="100%"/>
+<img src="/img/test_rect_mode_center.png" width="100%"/>
 
 ## cm.**stroke_weight**(*weight=0*) {#stroke_weight}
 
@@ -135,4 +135,4 @@ cm.line(3, 8, 25, 8)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_stroke_weight.png" width="100%"/>
+<img src="/img/test_stroke_weight.png" width="100%"/>

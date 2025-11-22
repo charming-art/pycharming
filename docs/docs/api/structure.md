@@ -30,7 +30,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_setup.gif" />
+<img src="/img/test_setup.gif" />
 
 ## cm.**draw**(*foo*) {#draw}
 
@@ -60,7 +60,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_draw.gif" />
+<img src="/img/test_draw.gif" />
 
 ## cm.**run**() {#run}
 
@@ -77,7 +77,7 @@ cm.rect(0, 0, 5, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_run.png" />
+<img src="/img/test_run.png" />
 
 ## cm.**no_loop**() {#no_loop}
 
@@ -120,7 +120,7 @@ def mouse_clicked():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_loop.gif" />
+<img src="/img/test_loop.gif" />
 
 ## cm.**redraw**() {#redraw}
 
@@ -155,7 +155,7 @@ def mouse_clicked():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_redraw.gif" />
+<img src="/img/test_redraw.gif" />
 
 ## cm.**push**() {#push}
 ## cm.**pop**() {#pop}
@@ -182,7 +182,7 @@ cm.ellipse(35, 5, 10, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_push.png" />
+<img src="/img/test_push.png" />
 
 ## cm.**open_context**() {#open_context}
 
@@ -207,7 +207,7 @@ cm.ellipse(35, 5, 10, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_push.png" />
+<img src="/img/test_push.png" />
 
 ## cm.**exit**() {#exit}
 
@@ -239,4 +239,4 @@ def mouse_clicked():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_exit.gif" />
+<img src="/img/test_exit.gif" />

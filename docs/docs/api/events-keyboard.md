@@ -36,7 +36,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_key.gif" width="100%"/>
+<img src="/img/test_get_key.gif" width="100%"/>
 
 ## cm.**get_key_code**() : *number* {#get_key_code}
 
@@ -81,7 +81,7 @@ def key_pressed():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_key_code.gif" width="100%"/>
+<img src="/img/test_get_key_code.gif" width="100%"/>
 
 ## cm.**key_released**(*foo*) {#key_released}
 
@@ -120,7 +120,7 @@ def key_released():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_key_code.gif" width="100%"/>
+<img src="/img/test_get_key_code.gif" width="100%"/>
 
 ## cm.**key_typed**(*foo*) {#key_typed}
 
@@ -159,4 +159,4 @@ def key_typed():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_get_key_code.gif" width="100%"/>
+<img src="/img/test_get_key_code.gif" width="100%"/>

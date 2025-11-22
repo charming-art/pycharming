@@ -19,7 +19,7 @@ cm.set_cursor(cm.get_width() / 2, cm.get_height() / 2)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_cursor.png" />
+<img src="/img/test_cursor.png" />
 
 ## cm.**no_cursor**() {#no_cursor}
 
@@ -34,7 +34,7 @@ cm.no_cursor()
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_no_cursor.png" />
+<img src="/img/test_no_cursor.png" />
 
 ## cm.**frame_rate**(*rate*) {#frame_rate}
 
@@ -67,7 +67,7 @@ cm.run()
 
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_frame_rate.gif" />
+<img src="/img/test_frame_rate.gif" />
 
 ## cm.**full_screen**(*mode=SINGLE | DOUBLE*) {#full_screen}
 
@@ -98,7 +98,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_full_screen_single.gif" />
+<img src="/img/test_full_screen_single.gif" />
 
 The double render mode will use two cells to render a shape character. If a character is two-cell width (💘, 🌈, etc.), it only render once while one-cell width character (a, ;, etc.) will be render twice.
 
@@ -158,7 +158,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_full_screen_double.gif" />
+<img src="/img/test_full_screen_double.gif" />
 
 ## cm.**get_height**() : *number* {#get_height}
 
@@ -177,7 +177,7 @@ cm.point(cm.get_width() / 2, cm.get_height() / 2)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_dimensions.png" />
+<img src="/img/test_dimensions.png" />
 
 ## cm.**get_width**(*width*, *height*, *mode=SINGLE | DOUBLE*) {#size}
 
@@ -185,7 +185,7 @@ Sets the dimensions of it in cells for the sketch.
 
 The default mode is single mode which means render each character with only one cell. It works fine with character which take only one cell such as 'A', ';', etc.
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_size_single.gif" />
+<img src="/img/test_size_single.gif" />
 
 The double render mode will use two cells to render a shape character. If a character is two-cell width (💘, 🌈, etc.), it only render once while one-cell width character (a, ;, etc.) will be render twice.
 
@@ -193,4 +193,4 @@ In some case, Charming cant not get the right width for characters, you can use 
 
 In double mode, a text character will still use one cell to render for one-cell width.
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_size_double.gif" />
+<img src="/img/test_size_double.gif" />

@@ -2,9 +2,9 @@
 
 This is visualization for merge sort which shows the progress of sorting traditional Chinese mahjong. You can see that it is really fast. [[source](https://github.com/gh2hq/gh2/blob/main/examples/merge.py)]
 
-![merge](https://raw.githubusercontent.com/gh2hq/public-files/master/example_merge.gif)
+![merge](/img/example_merge.gif)
 
-![merge](https://raw.githubusercontent.com/gh2hq/public-files/master/example_merge.png)
+![merge](/img/example_merge.png)
 
 ```py
 from random import shuffle

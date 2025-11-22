@@ -35,12 +35,12 @@ export default defineConfig({
           collapsed: false,
           items: [
             {text: "Structure", link: "/docs/tutorials/structure"},
+            {text: "Shape", link: "/docs/tutorials/shape"},
             {text: "Color", link: "/docs/tutorials/color"},
             {text: "Event", link: "/docs/tutorials/event"},
             {text: "Image", link: "/docs/tutorials/image"},
             {text: "Typography", link: "/docs/tutorials/typography"},
             {text: "Helper", link: "/docs/tutorials/helper"},
-            {text: "Shape", link: "/docs/tutorials/shape"},
           ],
         },
         {

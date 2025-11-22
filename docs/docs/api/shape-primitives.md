@@ -15,7 +15,7 @@ cm.arc(12, 5, 20, 10, 0, cm.PI + cm.QUARTER_PI, cm.OPEN)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_arc_open.png" width="100%"/>
+<img src="/img/test_arc_open.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -26,7 +26,7 @@ cm.arc(12, 5, 20, 10, 0, cm.PI + cm.QUARTER_PI, cm.PIE)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_arc_pie.png" width="100%"/>
+<img src="/img/test_arc_pie.png" width="100%"/>
 
 ```py
 import charming as cm
@@ -37,7 +37,7 @@ cm.arc(12, 5, 20, 10, 0, cm.PI + cm.QUARTER_PI, cm.CHORD)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_arc_chord.png" width="100%"/>
+<img src="/img/test_arc_chord.png" width="100%"/>
 
 ## cm.**circle**(*x*, *y*, *extend*) {#circle}
 
@@ -52,7 +52,7 @@ cm.circle(12, 6, 10)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_circle.png" width="100%"/>
+<img src="/img/test_circle.png" width="100%"/>
 
 ## cm.**ellipse**(*a*, *b*, *c*, *d*) {#ellipse}
 
@@ -69,7 +69,7 @@ cm.ellipse(12, 6, 20, 10)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_ellipse.png" width="100%"/>
+<img src="/img/test_ellipse.png" width="100%"/>
 
 ## cm.**line**(*x1*, *y1*, *x2*, *y2*) {#line}
 
@@ -84,7 +84,7 @@ cm.line(1, 1, 10, 10)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_line.png" width="100%"/>
+<img src="/img/test_line.png" width="100%"/>
 
 ## cm.**point**(*x*, *y*) {#point}
 
@@ -97,7 +97,7 @@ cm.point(5, 5)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_point.png" width="100%"/>
+<img src="/img/test_point.png" width="100%"/>
 
 ## cm.**quad**(*x1*, *y1*, *x2*, *y2*, *x3*, *y3*, *x4*, *y4*) {#quad}
 
@@ -117,7 +117,7 @@ cm.quad(
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_quad.png" width="100%"/>
+<img src="/img/test_quad.png" width="100%"/>
 
 ## cm.**rect**(*a*, *b*, *c*, *d*) {#rect}
 
@@ -132,7 +132,7 @@ cm.rect(1, 1, 10, 10)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_rect.png" width="100%"/>
+<img src="/img/test_rect.png" width="100%"/>
 
 ## cm.**square**(*x*, *y*, *extend*) {#square}
 
@@ -148,7 +148,7 @@ cm.square(1, 1, 10)
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_square.png" width="100%"/>
+<img src="/img/test_square.png" width="100%"/>
 
 ## cm.**square**(*x1*, *y1*, *x2*, *y2*, *x3*, *y3*) {#triangle}
 
@@ -167,5 +167,5 @@ cm.triangle(
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_triangle.png" width="100%"/>
+<img src="/img/test_triangle.png" width="100%"/>
 

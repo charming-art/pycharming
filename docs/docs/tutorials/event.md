@@ -45,7 +45,7 @@ def cursor_pressed():
 app.run()
 ```
 
-![image](https://raw.githubusercontent.com/gh2hq/public-files/master/cursor_event.gif)
+![image](/img/cursor_event.gif)
 
 <!-- ## Mouse Event
 

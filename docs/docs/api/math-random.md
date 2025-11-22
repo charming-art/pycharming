@@ -35,7 +35,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_noise.gif" width="100%"/>
+<img src="/img/test_noise.gif" width="100%"/>
 
 ## cm.**noise_detail**(*octaves=4*, *falloff=0.5*) {#noise_detail}
 
@@ -67,7 +67,7 @@ for j in range(cm.get_height()):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_noise_detail.png" width="100%"/>
+<img src="/img/test_noise_detail.png" width="100%"/>
 
 ## cm.**noise_seed**(*seed*) {#noise_seed}
 
@@ -99,7 +99,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_noise_seed.gif" width="100%"/>
+<img src="/img/test_noise_seed.gif" width="100%"/>
 
 ## cm.**random**(*low*[, *high*]) {#random}
 
@@ -153,7 +153,7 @@ def draw():
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_random.gif" width="100%"/>
+<img src="/img/test_random.gif" width="100%"/>
 
 ## cm.**random_gaussian**() {#random_gaussian}
 
@@ -180,7 +180,7 @@ for y in range(cm.get_height()):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_random_gaussian.png" width="100%"/>
+<img src="/img/test_random_gaussian.png" width="100%"/>
 
 ## cm.**random_seed**(*seed*) {#random_seed}
 
@@ -204,4 +204,4 @@ for i in range(cm.get_width()):
 cm.run()
 ```
 
-<img src="https://raw.githubusercontent.com/gh2hq/public-files/master/test_random_seed.png" width="100%"/>
+<img src="/img/test_random_seed.png" width="100%"/>
